@@ -1,0 +1,99 @@
+.visualization-container {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 1.5rem;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  /* display: flex; */
+  /* justify-content: space-around; */
+}
+
+.visualization-title {
+  color: #2c3e50;
+  text-align: center;
+  margin-bottom: 0.5rem;
+  font-size: 1.8rem;
+}
+
+.visualization-subtitle {
+  color: #7f8c8d;
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 1rem;
+}
+
+.chart-container {
+  background-color: white;
+  border-radius: 8px;
+  padding: 1rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.bar {
+  transition: fill 0.2s ease;
+}
+
+.bar:hover {
+  opacity: 0.8;
+}
+
+.x-axis text,
+.y-axis text {
+  font-size: 12px;
+  fill: #666;
+}
+
+.axis-label {
+  font-size: 13px;
+  fill: #666;
+}
+
+.chart-title {
+  font-size: 16px;
+  font-weight: bold;
+  fill: #333;
+}
+
+.value-label {
+  font-size: 11px;
+  fill: #333;
+  font-weight: bold;
+}
+
+.tooltip {
+  position: absolute;
+  padding: 12px;
+  background: rgba(255, 255, 255, 0.95);
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  pointer-events: none;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  font-size: 13px;
+  line-height: 1.4;
+  max-width: 250px;
+}
+
+.tooltip-title {
+  font-weight: bold;
+  margin-bottom: 8px;
+  color: #2c3e50;
+  font-size: 14px;
+}
+
+.visualization-footer {
+  text-align: center;
+  margin-top: 1rem;
+  color: #7f8c8d;
+  font-size: 0.9rem;
+}
+
+.current-savings-line {
+  opacity: 0.7;
+}
+
+.current-savings-label {
+  font-size: 12px;
+  font-weight: bold;
+}
